@@ -1,0 +1,36 @@
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: auto;
+    width: fit-content;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+}
+
+.cell{
+    height:180px;
+    width:180px;
+    border-radius: 25px;
+}
+
+.b1{
+    background-color: gold;
+}
+
+.b2{
+    background-color: purple;
+}
+
+.b3{
+    background-color: green;
+}
+
+.b4{
+    background-color: teal;
+}
